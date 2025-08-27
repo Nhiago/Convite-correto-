@@ -87,7 +87,7 @@ function App() {
         <div className="relative animate-float">
           {/* Foguete usando a imagem fornecida */}
           <img 
-            src="/assets/rocket.png" 
+            src="/rocket.png" 
             alt="Foguete espacial" 
             className="w-32 h-32 sm:w-48 sm:h-48 object-contain drop-shadow-2xl"
             style={{
