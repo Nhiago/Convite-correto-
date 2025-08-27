@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
 import { ChevronDown, Rocket, Calendar, MapPin, Clock, MessageCircle } from 'lucide-react'
 import backgroundVideo from './assets/background-video.mp4'
-import Foguete from "./assets/rocket.png"
 import './App.css'
 
 function App() {
