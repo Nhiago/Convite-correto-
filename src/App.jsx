@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
 import { ChevronDown, Rocket, Calendar, MapPin, Clock, MessageCircle } from 'lucide-react'
 import backgroundVideo from './assets/background-video.mp4'
+import Foguete from "./assets/rocket.png"
 import './App.css'
 
 function App() {
@@ -147,14 +148,15 @@ function App() {
       {/* Foguete principal usando a imagem fornecida */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="relative animate-float">
-          <img 
-            src="/assets/rocket.png" 
+          <img>
+          
             alt="Foguete espacial" 
             className="w-48 h-48 sm:w-56 sm:h-56 object-contain drop-shadow-2xl"
             style={{
               filter: 'drop-shadow(0 0 25px rgba(255, 255, 255, 0.4))'
             }}
-          />
+            <source src={Foguete} type='image/png'/>
+         </img>
         </div>
       </div>
       
