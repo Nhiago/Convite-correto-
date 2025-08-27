@@ -148,15 +148,15 @@ function App() {
       {/* Foguete principal usando a imagem fornecida */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="relative animate-float">
-          <img>
-          
+          <img
+            src='/rocket.png' 
             alt="Foguete espacial" 
             className="w-48 h-48 sm:w-56 sm:h-56 object-contain drop-shadow-2xl"
             style={{
               filter: 'drop-shadow(0 0 25px rgba(255, 255, 255, 0.4))'
             }}
-            <source src={Foguete} type='image/png'/>
-         </img>
+           />
+         
         </div>
       </div>
       
