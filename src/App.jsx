@@ -317,13 +317,13 @@ function App() {
             </div>
             
             <div className="mt-6 sm:mt-8 space-y-3 sm:space-y-4">
-              <Button 
-                onClick={confirmPresence}
-                className="bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-2xl w-full max-w-sm mx-auto block"
-              >
-                <MessageCircle className="mr-2" />
-                Confirmar Presença
-              </Button>
+             <Button
+  onClick={confirmPresence}
+  className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-2xl w-full"
+>
+  <MessageCircle className="mr-2" />
+  Confirmar Presença
+</Button>
               
              
             </div>
